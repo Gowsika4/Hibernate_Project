@@ -1,0 +1,14 @@
+create database vsbdb;
+use vsbdb;
+create table pro(slno INT AUTO_INCREMENT PRIMARY KEY,pname varchar(45),qty int,price int);
+insert into pro(pname,qty,price)values("mobile",1,50000);
+insert into pro(pname,qty,price)values("tv",2,100000);
+insert into pro(pname,qty,price)values("watch",3,3900);
+insert into pro(pname,qty,price)values("bluetooth",1,2000);
+insert into pro(pname,qty,price)values("fridge",2,19000);
+insert into pro(pname,qty,price)values("washing machine",1,50000);
+insert into pro(pname,qty,price)values("smart watch",2,6000);
+insert into pro(pname,qty,price)values("locker",1,250000);
+insert into pro(pname,qty,price)values("mobile",1,50000);
+insert into pro(pname,qty,price)values("travel bag",1,8500);
+select * from pro;
